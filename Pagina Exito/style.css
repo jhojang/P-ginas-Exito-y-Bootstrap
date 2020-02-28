@@ -1,0 +1,1523 @@
+.global{
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    width: 100%;
+    height: 154px;
+    background: rgb(186, 19, 26);
+}
+
+#content {
+    margin-bottom: 45px;
+}
+
+.fondo-izquierdo{
+    width: 77.8%;
+    height: 100%;
+    float: left;
+}
+
+.contenedor-ahorro {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.laminas {
+    height: 71%;
+    width: 692px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.lamina-izq {
+    flex: 1 0 49%;
+    align-self: center;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lamina-izq p {
+    position: relative;
+    top: -10px;
+    left: -22px;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 18px;
+    width: 71%;
+    transform: scaleX(1.21);
+}
+
+.lamina-der {
+    flex: 0 0 51%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cards {
+    flex: 0 0 82%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: rgb(254, 232, 1);
+    flex: 0 0 78.5px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    border-bottom: 3px solid rgb(241, 48, 32);
+}
+
+
+.texto-estrella {
+    position: relative;
+    top: -9px;
+    width: 100%;
+    height: 120%;
+    display: flex;
+    flex-flow: column;
+}
+
+.llevas {
+    margin: 0 auto;
+    width: 94%;
+    height: 26%;
+    background-color: rgb(241, 48, 32);
+    border-radius: 3px;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.llevas span {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -14px;
+    left: 3px;
+    color: white;
+    text-shadow: 0px 1px 1px rgb(172, 171, 171);
+
+    font-size: 23px;
+}
+
+.llevas span strong{
+    -webkit-text-fill-color:  rgb(254, 232, 1);
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+    font-size: 36px;
+    text-shadow: -3px -3px 1px rgb(241, 48, 32), 3px 3px 1px rgb(241, 48, 32), -3px 3px 1px rgb(241, 48, 32), 3px -3px 1px rgb(241, 48, 32), 0px -3px 1px rgb(241, 48, 32), 0px 3px 1px rgb(241, 48, 32);
+}
+
+.llevas .unidades{
+    padding: 0 2px;
+    position: relative;
+    top: -27px;
+    left: 27px;
+    background-color: rgb(241, 48, 32);
+    color: white;
+    font-size: 8px;
+}
+
+
+
+.estrella-y-anuncio {
+    position: relative;
+    width: 100%;
+    height: 74%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-estrella {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.estrella {
+    position: relative;
+    top: -2px;
+    background-color: rgb(241, 48, 32);
+    width: 100%;
+    height: 110%;
+    clip-path: polygon(50% 24%, 78% 13.25%, 75% 42.15%, 94.25% 62.55%, 65.45% 71.5%, 50% 94%, 34.55% 71.5%, 5.75% 62.55%, 25% 42.15%, 23% 13.25%);
+    transform: rotate(180deg);
+    
+}
+
+.borde-estrella {
+    float: left;
+    top: 0.3px;
+    background-color: rgb(186, 19, 26);
+}
+
+.anuncio {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.anuncio p {
+    position: relative;
+    top: 5px;
+    color: rgb(254, 232, 1);
+    margin: 0;
+    line-height: 6px;
+}
+ 
+.anuncio .num {
+    position: relative;
+    left: 1px;
+    font-size: 25px;
+    font-weight: bold;
+    transform: scaleX(1.25);
+    letter-spacing: -1px;
+}
+
+.anuncio .num span{
+    position: relative;
+    top: -7px;
+    left: 0.6px;
+    font-size: 8px;
+    margin: 20px 0;
+}
+
+.anuncio .desc {
+    font-size: 8px;
+}
+
+.anuncio .derecha-num {
+    left: 0.4px;
+    font-size: 20px;
+    line-height: 16px;
+}
+
+.anuncio .derecha-desc {
+    font-size: 5px;
+    line-height: 6px;
+}
+
+
+
+/*------------INICIO CSS PARA LA ESTRELLA GRANDE DEL HEADER------------*/
+.texto-estrellaG .llevas{
+    margin: 0 auto;
+    width: 94%;
+    height: 16%;
+    background-color: transparent;
+}
+
+.texto-estrellaG .estrella-y-anuncio {
+    align-self: flex-end;
+    width: 100%;
+    height: 84%;
+}
+
+.texto-estrellaG .estrella {
+    left: -4.7px;
+    width: 113%;
+    height: 109%;
+}
+/*------------FIN CSS PARA LA ESTRELLA GRANDE DEL HEADER------------*/
+
+.circulo-estrella {
+    position: absolute;
+    top: 14.9px;
+    height: 48.3px;
+    width: 50.3px;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo-rojo {
+    top: 19px;
+    background-color: rgb(186, 19, 26);
+}
+
+.circulo-estrella p{
+    margin: 0;
+    font-size: 9px;
+    line-height: 7px;
+}
+
+.circulo-estrella .plata{
+    position: relative;
+    left: -3px;
+}
+
+.circulo-estrella .puntos{
+    padding: 1.5px 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.circulo-azul {
+    background-color: rgb(83, 200, 220);
+    border: 0.9px solid white;
+}
+
+.aro-rojo {
+    top: 15.9px;
+    height: 33.8px;
+    width: 36.9px;
+    background-color: transparent;
+    border: 7.5px solid rgb(241, 48, 32);
+}
+
+.aro-blanco {
+    top: 21.5px;
+    height: 33.8px;
+    width: 36px;
+    background-color: transparent;
+    border: 1.5px solid white;
+}
+
+.letra-redonda {
+    position: absolute;
+    top: 15.2px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.letras {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.letra-redonda span{
+    position: absolute;
+    top: 0px;
+    height: 49px;
+    color: white;
+    font-size: 5px;
+}
+
+.w1 {
+    transform: rotate(-98deg);
+}
+.w2 {
+    transform: rotate(-91deg);
+}
+.w3 {
+    transform: rotate(-84deg);
+}
+.w4 {
+    transform: rotate(-77deg);
+}
+.w5 {
+    transform: rotate(-70deg);
+}
+.w6 {
+    transform: rotate(-63deg);
+}
+.w7 {
+    transform: rotate(-56deg);
+}
+.w8 {
+    transform: rotate(-49deg);
+}
+.w9 {
+    transform: rotate(-42deg);
+}
+.w10 {
+    transform: rotate(-35deg);
+}
+.w11 {
+    transform: rotate(-28deg);
+}
+.w12 {
+    transform: rotate(-21deg);
+}
+.w13 {
+    transform: rotate(-14deg);
+}
+.w14 {
+    transform: rotate(-7deg);
+}
+.w15 {
+    transform: rotate(0deg);
+}
+.w16 {
+    transform: rotate(7deg);
+}
+.w17 {
+    transform: rotate(14deg);
+}
+.w18 {
+    transform: rotate(21deg);
+}
+.w19 {
+    transform: rotate(28deg);
+}
+.w20 {
+    transform: rotate(35deg);
+}
+.w21 {
+    transform: rotate(42deg);
+}
+.w22 {
+    transform: rotate(49deg);
+}
+.w23 {
+    transform: rotate(56deg);
+}
+.w24 {
+    transform: rotate(63deg);
+}
+.w25 {
+    transform: rotate(70deg);
+}
+.w26 {
+    transform: rotate(77deg);
+}
+.w27 {
+    transform: rotate(84deg);
+}
+.w28 {
+    transform: rotate(91deg);
+}
+.w29 {
+    transform: rotate(98deg);
+}
+
+
+
+
+
+.descuento {
+    flex: 0 0 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descuento p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 10.5px;
+    margin: auto;
+    transform: scaleX(1.19);
+}
+
+
+
+.fondo-derecho{
+    width: 20.2%;
+    height: 100%;
+    background: rgb(254, 232, 1);
+    border-left: 7px solid rgb(255, 255, 255);
+    float: right;
+}
+
+.fondo-derecho img {
+    position: relative;
+    top: 32.5%;
+    width: 74.5%;
+    height: auto;
+}
+
+.cono{
+    position: absolute;
+    top: -16.9px;
+    width: 20px; 
+    height: 148px;
+    border: solid 20px;
+    border-top-left-radius: 100% 50%;
+    border-bottom-left-radius: 100% 50%;
+    
+}
+
+.borde-blanco {
+    position: relative;
+    left: -17.3px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.cono-amarillo{
+    border-color: transparent transparent transparent rgb(254, 232, 1);
+    border-right: none;
+}
+
+.cono-blanco{
+    left: -7px;
+    border-color: transparent transparent transparent white;
+    float: left;
+    border-right: none;
+}
+
+#content {
+    height: auto;
+    width: 100%;
+}
+
+.articulos {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.opciones {
+    flex: 1 0 57%;
+    text-align: center;
+}
+
+.opciones div {
+    margin: 15px 0;
+}
+
+.opciones p {
+    line-height: 40px;
+    margin: 0;
+}
+
+.opciones .p1 {
+    font-weight: bolder;
+    font-size: 47px;
+    letter-spacing: -3px;
+    transform: scaleX(1.31);
+}
+
+.opciones .p2 {
+    font-size: 49px;
+    letter-spacing: -3px;
+    transform: scaleX(1.19);
+}
+
+.mercado {
+    
+    flex: 1 0 43%;
+    display: flex;
+}
+
+.contenedor-mercado {
+    left: 25px;
+    position: relative;
+    perspective: 700px;
+}
+
+.contenedor-mercado .cuadro {
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.contenedor-mercado .cuadro-gris {
+    background-color: rgb(198, 198, 201);
+    width: 315px;
+    height: 82px;
+}
+
+.contenedor-mercado .cuadro-naranja {
+    background-color: rgb(255, 111, 0);
+    width: 325px;
+    height: 122px;
+    border-radius: 10px;
+    transform: rotateX(-48deg) rotateY(-11deg) rotateZ(-14deg) translateX(-28px) translateZ(-29px);
+}
+
+.contenedor-mercado .cuadro-linea {
+    border: 2px solid black;
+    border-left: 8px solid black;
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-left-radius: 40px 20px;
+    border-bottom-left-radius: 20px 20px;
+    background-color: transparent;
+    width: 448px;
+    height: 70px;
+    transform: rotateX(20deg) rotateY(-61deg) rotateZ(14deg) translateZ(90px) translateX(-177px) translateX(87px) translateY(11px);
+}
+
+.contenedor-mercado .cuadro-texto {
+    top: 35px;
+    left: 75px;
+}
+
+.contenedor-mercado .cuadro-texto p{
+    margin: 0;
+    font-size: 62px;
+    color: rgb(254, 232, 1);
+    transform: scaleX(0.9);
+}
+
+.adorno1 {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    background-color: bisque;
+    width: 20px;
+    transform: rotate(40deg);
+}
+
+.linea1 {
+    position: absolute;
+    top: -1px;
+    left: 1px;
+    transform: rotate(10deg);
+}
+
+.linea2 {
+    position: absolute;
+    top: 10px;
+    transform: rotate(-20deg);
+}
+
+.adorno2 {
+    position: absolute;
+    top:97px;
+    left: 375px;
+    width: 20px;
+    transform: rotate(40deg);
+}
+
+.linea3 {
+    position: absolute;
+    left: -3px;
+    transform: rotate(-38deg);
+}
+
+
+.linea4 {
+    position: absolute;
+    top: 20px;
+}
+
+.linea5 {
+    position: absolute;
+    top: 40px;
+    left: -3px;
+    transform: rotate(38deg);
+}
+
+.productos {
+    margin-top: 8px;
+    height: 760px;
+    display: grid;
+    grid: 38.84% 12.84% 26% 27% / repeat(5, 20%);
+}
+
+.producto1 {
+    position: relative;
+    grid: repeat(2, 50%) repeat(2, 50%);
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.baq {
+    position: absolute;
+}
+
+.baquettina {
+    width: 100%;
+    height: 278px;
+}
+
+.baquettina img {
+    position: relative;
+    top: -18px;
+    height: 290px;
+    width: 98%;
+    border-radius: 50%;
+    border: 5px solid rgb(254, 232, 1);
+}
+
+.estrella3d {
+    bottom: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.container{
+    position: relative;
+    left: -50px;
+    top: -30px;
+    width: 280px;
+    height: 200px;
+    margin: auto;
+    perspective: 700px;
+}
+
+.estrellaaaaG{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    perspective: 700px;
+    transform-style: preserve-3d;
+    transform: rotate(180deg) rotateY(-47deg);
+}
+
+
+
+
+.estrellaa{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 25%, 78% 14.25%, 75% 43.15%, 94.25% 63.55%, 65.45% 72.5%, 50% 95%, 34.55% 72.5%, 5.75% 63.55%, 25% 43.15%, 23% 14.25%);
+}
+
+
+.lado1,
+.lado2,
+.lado3,
+.lado4,
+.lado5 {
+    position: absolute;
+    width: 12.5%;
+}
+
+.caraA{
+    position: absolute;
+    /*background: rgb(233, 51, 27);*/
+    background: linear-gradient(10deg, rgb(237, 76, 58) 44%, rgb(239, 33, 39) 47%);
+}
+
+.caraB{
+    position: absolute;
+    background: rgb(255, 80, 27);
+    transform: translateZ(-35px);
+}
+
+.lado1{
+    top: 136px;
+    left: 50px;
+    background: linear-gradient(123deg, rgb(199, 31, 1) 22%, rgb(237, 76, 58) 69%);
+    height: 31.5%;
+    transform: translateZ(-17.5px) translateX(94px) rotateY(90deg) rotateX(-43.9deg);
+
+}
+
+.lado2{
+    top: 47.3%;
+    left: 17.8%;
+    background: rgb(255, 98, 70);
+    height: 41.3%;
+    transform: translateZ(-17.5px) translateX(156.1px) rotateY(90deg) rotateX(-77.5deg);
+
+}
+
+.lado3{
+    top: 30.5%;
+    left: 17.8%;
+    background: rgb(173, 27, 1);
+    height: 41.3%;
+    transform: translateZ(-17.5px) translateX(163.8px) rotateY(90deg) rotateX(-127.2deg);
+
+}
+
+.lado4{
+    top: 14%;
+    left: 17.8%;
+    background: rgb(133, 20, 1);
+    height: 41.3%;
+    transform: translateZ(-17.5px) translateX(145px) rotateY(90deg) rotateX(-8deg);
+}
+
+.lado5{
+    top: -0.75%;
+    left: 17.8%;
+    background: rgb(165, 26, 1);
+    height: 41.3%;
+    transform: translateZ(-17.5px) translateX(36.3px) rotateY(90deg) rotateX(-106.2deg);
+}
+
+
+
+.degradado {
+    width: 160px;
+    height: auto;
+    background: linear-gradient(-90deg, white, transparent);
+    right: 0px;
+    padding: 6px;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+.degradado p {
+    font-size: 11px;
+    text-align: right;
+    line-height: 12px;
+    margin: 0;
+}
+
+.ofertas-baquettina {
+    right: 0px;
+    bottom: 0px;
+    width: 300px;
+    height: 199px;
+    padding: 0;
+}
+
+.flecha-baquettina {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 8px;
+    float: right;
+    padding: 0;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(239, 45, 36);
+}
+
+.f1 {
+    margin: 0 0 9px 0;
+    width: 187px;
+    height: 37.09px;
+}
+
+.punta-flecha {
+    position: relative;
+    left: -21px;
+    height: 100%;
+    width: 22px;
+    background-color: rgb(239, 45, 36);
+    clip-path: polygon(0px 50%, 22px 0px, 22px 100%);
+}
+
+.f2 {
+    margin: 0 0 3px 0;
+    width: 206px;
+    height: 40.04px;
+}
+
+.parrafo-flecha {
+    position: relative;
+    top: -2.3px;
+    float: right;
+    font-size: 6.4px;
+    line-height: 5.2px;
+    font-weight: bold;
+    width: 125px;
+    margin: 0px;
+}
+
+.f3 {
+    margin: 0 0 3px 0;
+    height: 43.26px;
+    width: 218px;
+}
+
+.num-text-content {
+    position: relative;
+    left: -21px;
+    display: flex;
+    flex-direction: row;
+}
+
+.numero-flecha {
+    position: relative;
+    top: -2px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.numero-flecha p{
+    margin: 0;
+    font-size: 7px;
+    color: white;
+    line-height: 13px;
+}
+
+.numero3 p{
+    line-height: 15px;
+}
+
+.numero-flecha .num-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(254, 232, 1);
+}
+
+.numero-flecha .num2 {
+    font-size: 25px;
+}
+
+.numero-flecha .num3 {
+    font-size: 27px;
+}
+
+.little-star {
+    height: 20px;
+}
+
+.estrellaP {
+    
+    position: relative;
+    top: -18px;
+    width: 55px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-estrellaP {
+    width: 100%;
+    height: 100%;
+}
+
+.estrella2P {
+    position: relative;
+    background-color: rgb(254, 232, 1);
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 24%, 78% 13.25%, 75% 42.15%, 94.25% 62.55%, 65.45% 71.5%, 50% 94%, 34.55% 71.5%, 5.75% 62.55%, 25% 42.15%, 23% 13.25%);
+    transform: rotate(180deg);
+    
+}
+
+.anuncioP {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.anuncioP p {
+    position: relative;
+    top: 3px;
+    color: rgb(241, 48, 32);
+    margin: 0;
+    line-height: 6px;
+}
+
+.anuncioP .numP {
+    position: relative;
+    left: 1px;
+    font-size: 17px;
+    font-weight: 700;
+    transform: scaleX(1.25);
+    letter-spacing: -1px;
+}
+
+.anuncioP .numP span{
+    position: relative;
+    top: -7px;
+    left: 0.6px;
+    font-size: 6px;
+    margin: 20px 0;
+}
+
+.descuent {
+    text-align: center;
+}
+
+.descuent p {
+    margin: 0;
+    position: relative;
+    top: -24px;
+    font-size: 8px;
+    color: white;
+
+}
+
+.texto-precio {
+    position: relative;
+    top: -8px;
+}
+
+.texto-precio p {
+    color: white;
+    font-size: 20px;
+}
+
+.star2 {
+    position: relative;
+    left: 10px;
+}
+
+.dd1 p{
+    font-size: 6px;
+    line-height: 4.5px;
+}
+
+.TP {
+    left: 10px;
+    top: -15px;
+}
+
+.star3 {
+    position: relative;
+    left: 15px;
+}
+
+.TP2 {
+    left: 12px;
+    top: -15px;
+}
+
+.dd2 {
+    position: relative;
+    left: -5px;
+    font-size: 6px;
+    line-height: 4.5px;
+}
+
+.dd2 p{
+    line-height: 5px;
+}
+
+.dd2 .lineaNum1{
+    font-size: 5px;
+}
+
+.dd2 .lineaNum2{
+    font-size: 6px;
+}
+
+.dd2 .lineaNum2 span{
+    font-size: 9px;
+}
+
+.dd2 .lineaNum3{
+    font-size: 5px;
+}
+
+
+
+
+.plata-puntos {
+    position: relative;
+    right: 8px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin: 0 0 20px 0;
+    width: 267px;
+    height: 33px;
+    background-color: rgb(254, 232, 1);
+}
+
+.flecha-plata-puntos {
+    width: 85px;
+    height: 100%;
+    background: linear-gradient(rgb(83, 200, 220) 50%, black 50%);
+    clip-path: polygon(0px 0px, 70px 0px, 85px 50%, 70px 100%, 0px 100%);
+}
+
+.flecha-plata-puntos p {
+    position: relative;
+    top: 3px;
+    margin: 0 0 0 11px;
+    line-height: 15px;
+    transform: scaleX(1.2);
+}
+
+.flecha-plata-puntos .linea-puntos {
+    color: white;
+    font-weight: bold;
+}
+
+.precio-PP {
+    position: relative;
+    top: -15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.precio-PP span{
+    font-size: 16px;
+}
+
+
+
+/*###############---------INICIO BORRAR-----------###############*/
+
+.centerP {
+    border: 1px red solid;
+    border-color: transparent red transparent red;
+}
+
+
+
+
+.prod5 {
+    border: 2px solid red;
+    margin: 0 auto;
+    height: 100%;
+    width: 93%;
+    background-color: rgb(253, 247, 196);
+    border-radius: 15px;
+}
+
+
+
+
+
+.combina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.combina p {
+    position: relative;
+    top: -3px;
+    font-size: 28px;
+    color: white;
+    font-weight: 800;
+}
+
+.subtitulo-combina {
+    text-align: center;
+    
+}
+
+.subtitulo-combina p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 13px;
+}
+
+
+.producto5,
+.producto6,
+.producto7 {
+    grid-row: 2 / 4;
+}
+
+.producto9,
+.producto10,
+.producto11,
+.producto13 {
+    position: relative;
+}
+
+/*##################   MODIFICAAAAAAAAAAAAR   ################*/
+.borde-productoB {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    height: 160px;
+    border: 1px solid red;
+    border-color: transparent red transparent red;
+}
+
+.fila-final {
+    top: 30px;
+}
+
+.producto14 {
+    background-color: blueviolet;
+}
+
+
+/*###############---------FIN BORRAR-----------###############*/
+
+
+
+.productoA,
+.productoB {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px red solid;
+}
+
+.producto10,
+.producto11,
+.producto12,
+.producto13,
+.producto14 {
+    border-bottom: 1.5px rgb(254, 232, 1) solid;
+}
+
+.content-productA,
+.content-productB {
+    height: 90%;
+    width: 100%;
+}
+
+.centro-productoA,
+.centro-productoB {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+}
+
+.prodLeft {
+    border-right: none;
+}
+
+.prodRight {
+    border-left: none;
+}
+
+
+.centro-productoA img {
+    width: 100%;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.paquete {
+    height: 10px;
+    width: 100%;
+}
+
+.paqueteB {
+    height: 10px;
+    width: 100%;
+}
+
+.centro-productoA .img-grande {
+    height: 118px;
+}
+
+.paquete-vacio {
+    height: 2px;
+}
+
+.paquete .logo-pesco {
+    position: relative;
+    top: -2px;
+    left: 76px;
+    width: 90px;
+    height: auto;
+}
+
+.paquete img {
+    position: relative;
+    top: -20px;
+    left: 68px;
+    height: 62px;
+    width: auto;
+}
+
+.paquete-centro {
+    height: 28px;
+    width: 100%;
+}
+
+.paquete-centro img {
+    position: relative;
+    top: -15px;
+    left: 68px;
+    height: 62px;
+    width: auto;
+}
+
+.paquete-centro .mostaneza-constancia {
+    top: -15px;
+    left: 75px;
+    height: 84px;
+    width: 62px;
+    transform: rotate(5deg);
+}
+
+.paquete-centro .mostaneza-constanciaa {
+    top: 5px;
+    left: 31px;
+    height: 105px;
+    width: 62px;
+}
+
+.paqueteB img {
+    position: relative;
+    top: -5px;
+    left: 97px;
+    height: 83px;
+    width: 60px;
+    border-radius: none;
+}
+
+.paqueteB .salsa-tomate {
+    top: -20px;
+    left: 110px;
+    height: 98px;
+    width: 50px;
+}
+
+.paqueteB .salchicha-tradicional {
+    top: -9px;
+    left: 88px;
+    height: 89px;
+    width: 70px;
+}
+
+.paqueteB .salchicha {
+    top: -9px;
+    left: 83px;
+    height: 89px;
+    width: 85px;
+}
+
+.paqueteB .atun-lomos-en-agua {
+    top: 11px;
+    left: 70px;
+    height: 63px;
+    width: 75px;
+    transform: rotate(2deg);
+}
+
+.paqueteB .mayonesa-doypack {
+    height: 92px;
+    width: 66px;
+}
+
+.paqueteB .salsa-tartara {
+    top: -7px;
+    left: 77px;
+    height: 88px;
+    width: 70px;
+}
+
+.content-mediano {
+    height: 20px;
+}
+
+.content-derecha {
+    height: 40px;
+}
+
+.paquete .palmito {
+    top: -23px;
+    left: 83px;
+    height: 62px;
+    width: 80px;
+    transform: rotate(10deg);
+}
+
+
+
+.descripcion-producto {
+    margin: 0 0 5px 0;
+}
+
+.descripcion-producto p{
+    font-size: 10px;
+    margin: 0;
+    line-height: 10.5px;
+}
+
+.descripcion-productoB {
+    width: 80px;
+    margin: 0 0 5px 0;
+}
+
+.descripcion-productoB p{
+    font-size: 10px;
+    margin: 0;
+    line-height: 10.5px;
+}
+
+.descripcion-productoB .costa{
+    width: 100px;
+}
+
+.llevas-content {
+    font-weight: bold;
+    width: 90%;
+    height: 18px;
+    margin: 2px 0 0 0;
+    display: flex;
+    flex-flow: row;
+    padding: 0;
+    background-color: rgb(254, 232, 1);
+}
+
+
+
+.llevas-oferta1 {
+    width: 80%;
+    height: 16px;
+}
+
+.llevas-oferta1 p{
+    font-weight: bold;
+    font-size: 10px;
+    margin: 3px 3px;
+}
+
+.flecha-llevas {
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(239, 45, 36);
+}
+
+.flecha-llevas p {
+    color: white;
+}
+
+
+
+
+.punta-llevas1 {
+    border: 8px solid rgb(239, 45, 36);
+}
+
+.llevas-oferta1 .precio1 {
+    margin: 0;
+    font-size: 16px;
+}
+
+/*-------------------------------*/
+
+
+.llevas-oferta2 {
+    width: 87%;
+    height: 18px;
+}
+
+.llevas-oferta2 p{
+    font-size: 11px;
+    font-weight: bold;
+    margin: 3px 3px;
+}
+
+.punta-llevas2 {
+    border: 9px solid rgb(239, 45, 36);
+}
+
+.llevas-oferta2 .precio2 {
+    margin: 0;
+    font-size: 17px;
+}
+
+
+.dcto {
+    font-size: 5px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.llevas-oferta3 {
+    width: 95%;
+    height: 20px;
+}
+
+.llevas-oferta3 p{
+    font-size: 11.6px;
+    font-weight: bold;
+    margin: 3px 3px;
+}
+
+.punta-llevas3 {
+    border: 10px solid rgb(239, 45, 36);
+}
+
+.llevas-oferta3 .precio3 {
+    margin: 0;
+    font-size: 17px;
+}
+
+
+.llevas-oferta4 {
+    width: 100%;
+    height: 20px;
+}
+
+.llevas-oferta4 p{
+    font-size: 9px;
+    font-weight: bold;
+    margin: 3px 3px;
+}
+
+.flecha-llevas4 {
+    width: 45px;
+    background: linear-gradient(rgb(83, 200, 220) 50%, black 50%);
+    display: flex;
+    flex-flow: column;
+    clip-path: polygon(0px 0px, 35px 0px, 45px 10px, 35px 20px, 0px 20px);
+}
+
+.flecha-llevas4 p {
+    position: relative;
+    top: 1.5px;
+    margin: 0 0 0 3px;
+}
+
+.flecha-llevas4 .puntos {
+    font-weight: bold;
+    color: white;
+}
+
+.punta-llevas4 {
+    border: 10px solid rgb(239, 45, 36);
+}
+
+.llevas-oferta4 .precio4 {
+    margin: 3px 0 0 0;
+    font-size: 12.5px;
+}
+
+.llevas-oferta4 .precio4 span{
+    font-size: 10px;
+}
+
+.punta-content {
+    position: relative;
+    height: 0;
+    border-right: none;
+    border-color: transparent transparent transparent rgb(239, 45, 36);
+}
+
+.prod5 .llevas-oferta1 {
+    width: 85%;
+}
+
+.prod5 .llevas-oferta2 {
+    width: 90%;
+}
+
+footer {
+    width: 900px;
+    margin: 0 auto;
+}
+
+footer p {
+    line-height: 1px;
+    font-size: 8px;
+}

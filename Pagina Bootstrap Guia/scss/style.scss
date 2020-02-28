@@ -1,0 +1,156 @@
+/*----------------------------
+        1. TIPOGRAFÍA
+----------------------------*/
+
+/*$principal: rgb(253, 193, 0);*/
+$principal: rgb(1, 37, 138);
+$secondary: rgb(1, 101, 202);
+$texto: #696969;
+
+html {
+    font-size: 13px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: $texto;
+}
+
+/*2. ESTILOS GENERALES DE BOTONES*/
+
+.btn {
+
+}
+
+/*3. ESTILOS COLOR PRINCIPAL*/
+
+.bg-primary {
+    background-color: $principal !important;
+}
+
+.text-primary {
+    color: $secondary !important;
+}
+
+.bg-secondary {
+    background-color: $secondary !important;
+}
+
+.bg-navegacion {
+    background-color: #dddddd;
+}
+
+/*ESTILOS PARA EL LOGO BARRA AZUL*/
+
+.logo .logo-top{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.logo .logo-top:hover{
+    opacity: 1;
+    text-decoration: none;
+}
+
+/*ESTILOS PARA EL LOGO NAV*/
+
+.logo .logo-nav{
+    color: rgb(0, 0, 0) !important;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.logo .logo-nav:hover{
+    opacity: 1;
+    text-decoration: none;
+}
+
+/*5. ESTILOS PARA .redes-sociales*/
+
+.redes-sociales li a i{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0 4px;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.redes-sociales li a i:hover {
+    opacity: 1;
+    transform: scale(1.2) rotate(360deg);
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 0.25rem;
+    outline: 0 !important;
+}
+
+.boton-nav {
+    font-size: 30px;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.8rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link:after {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f054";
+    font-weight: 900;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover:after {
+    transform: rotateZ(180deg);
+}
+
+.nav-item a{
+    color: $texto !important;
+    border-radius: 3px;
+}
+
+.nav-item a:hover {
+    color: white !important;
+    background-color: #afafaf;
+    border-radius: 3px;
+}
+
+.nav-item .active {
+    background-color: $principal;
+    color: white !important;
+}
+
+/* MEDIAQUERIES*/
+
+@media (min-width:768px) {
+    .nav-link:after {
+        content: "";
+    }
+
+    .nav-item .active {
+        background-color: transparent;
+        color: black !important;
+        border-bottom: 4px red solid;
+    }
+
+    .nav-item a:hover {
+        color: $texto !important;
+        background-color: transparent;
+        border-radius: 0px;
+    }
+
+    
+}
