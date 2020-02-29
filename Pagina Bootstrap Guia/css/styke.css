@@ -129,7 +129,10 @@ body {
 .bg-espacio {
   background: url("../img/fondo-espacio.jpg") !important; }
 
-/*PEOPLE ABOUT US*/
+/*SCIENTIFICOS FAMOSOS*/
+.posicion-cientificos {
+  top: 30px; }
+
 .bg-gray {
   background-color: #f1f1f1; }
 
