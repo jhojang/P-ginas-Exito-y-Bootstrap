@@ -8,49 +8,54 @@
     <link rel="stylesheet" href="css/all.css" type="text/css">
     <title>Página en Bootstrap</title>
 </head>
-<body>
-    
+<body class="bg-navegacion">
+
+  <!--ENCABEZADO Y NAVBAR-->
+  <div class="bg-white container px-0">
+
     <section id="barra-contacto" class="bg-primary text-white py-2 align-items-center">
-        <div class="container">
-            <div class="row justify-content-sm-between align-items-center">
-                <div class="col-4 text-center mb-0 col-sm-auto d-md-none">
-                    <a href="#" class="logo d-md-none m-0"><span class="logo-top m-0">COURSES</span></a>
-                </div>
-                <div class="col-4 col-md-6 text-center col-sm-auto">
-                    <ul class="redes-sociales list-unstyled d-inline-flex mb-0">
-                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-4 col-md-6 text-center mb-0 col-sm-auto">
-                    <span><i class="fas fa-phone"></i> +57 358 12 36</span>
-                </div>
-            </div>
-        </div>
-    </section>
+      <div class="container">
+          <div class="row justify-content-sm-between align-items-center">
+              <div class="col-4 text-center mb-0 col-sm-auto d-md-none">
+                  <a href="#" class="logo d-md-none m-0"><span class="logo-top m-0">COURSES</span></a>
+              </div>
+              <div class="col-4 col-md-6 text-center col-sm-auto">
+                  <ul class="redes-sociales list-unstyled d-inline-flex mb-0">
+                      <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                      <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  </ul>
+              </div>
+              <div class="col-4 col-md-6 text-center mb-0 col-sm-auto">
+                  <span><i class="fas fa-phone"></i> +57 358 12 36</span>
+              </div>
+          </div>
+      </div>
+  </section>
 
 
-    <nav id="menu-navegacion" class="navbar navbar-light bg-navegacion navbar-expand-md p-md-0">
-        <div class="container">
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal"
-            aria-expanded="false" aria-label="Menú principal"><i class="fas fa-bars boton-nav"></i></button>
-            
-            <div class="collapse navbar-collapse justify-content-between" id="menu-principal">
-                <a href="#" class="logo d-none d-md-block"><span class="logo-nav">COURSES</span></a>
-                <ul class="navbar-nav mt-2 mt-md-0">
-                    <li class="nav-item my-1 mb-md-0 mr-md-1"><a href="#" class="nav-link px-3 active">Inicio</a></li>
-                    <li class="nav-item my-1 mb-md-0 mr-md-1"><a href="#" class="nav-link px-3">Nosotros</a></li>
-                    <li class="nav-item my-1 mb-md-0 mr-md-1"><a href="#" class="nav-link px-3">Premios</a></li>
-                    <li class="nav-item my-1 mb-md-0 mr-md-1"><a href="#" class="nav-link px-3">Nuestra App</a></li>
-                    <li class="nav-item my-1 mb-md-0 mr-md-0"><a href="#" class="nav-link px-3">Contacto</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <nav id="menu-navegacion" class="navbar navbar-light bg-white navbar-expand-md p-md-0">
+      <div class="container">
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal"
+          aria-expanded="false" aria-label="Menú principal"><i class="fas fa-bars boton-nav"></i></button>
+          
+          <div class="collapse navbar-collapse justify-content-between" id="menu-principal">
+              <a href="#" class="logo d-none d-md-block"><span class="logo-nav">COURSES</span></a>
+              <ul class="navbar-nav mt-2 mt-md-0">
+                  <li class="nav-item my-1 mb-md-0 mr-md-1"><a href="#" class="nav-link px-3 active">Inicio</a></li>
+                  <li class="nav-item my-1 mb-md-0 mr-md-1"><a href="#" class="nav-link px-3">Nosotros</a></li>
+                  <li class="nav-item my-1 mb-md-0 mr-md-1"><a href="#" class="nav-link px-3">Premios</a></li>
+                  <li class="nav-item my-1 mb-md-0 mr-md-1"><a href="#" class="nav-link px-3">Nuestra App</a></li>
+                  <li class="nav-item my-1 mb-md-0 mr-md-0"><a href="#" class="nav-link px-3">Contacto</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <!--FIN ENCABEZADO Y NAVBAR-->
 
-    
 
-    <div class="container">
+  <!--SLIDER-->
+
+    <div class="container mx-0 p-0">
         <div class="row">
             <div class="col-12">
                 <div id="slider" class="carousel slide" data-ride="carousel">
@@ -120,36 +125,40 @@
         </div>
     </div>
 
+    <!--FIN SLIDER-->
 
-    <div class="container marketing p-4">
+
+    <!--MARKETING-->
+
+    <div class="container marketing py-5 px-5 mx-0">
         <div class="text-center my-3"><h2>OUR ADVANTAGES</h2></div>
         
 
         
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-lg-3 text-center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="120" height="120">
             <h2>Heading</h2>
             <p>Este es un ejemplo de la primera parte de esta pequeña seccion de codigo</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            
           </div>
           <div class="col-lg-3 text-center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="120" height="120">
             <h2>Heading</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, neque.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            
           </div>
           <div class="col-lg-3 text-center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="120" height="120">
             <h2>Heading</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, obcaecati!</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            
           </div>
           <div class="col-lg-3 text-center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="120" height="120">
             <h2>Heading</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, minus!</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            
           </div>
           
         </div>
@@ -157,66 +166,83 @@
       </div>
 
 
-      <div class="container">
+      <!--NOVEDADES-->
+      <div class="container mx-0 py-5 px-5 bg-espacio">
+
+        <div class="text-center mb-3"><h2 class="h-titulo-novedades font-weight-bold">OUR ADVANTAGES</h2></div>
+
+
         <div class="row mb-2">
-            <div class="col-md-6">
-              <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                <div class="card-body d-flex flex-column align-items-start">
-                  <strong class="d-inline-block mb-2 text-primary">World</strong>
-                  <h3 class="mb-0">
-                    <a class="text-dark" href="#">Featured post</a>
-                  </h3>
-                  <div class="mb-1 text-muted">Nov 12</div>
-                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#">Continue reading</a>
+            <!--card 1-->
+            <div class="col-lg-6">
+              <div class="card mb-3 p-4">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <img src="img/betelgeuse.jpg" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-6 ">
+                    <div class="card-body py-md-0">
+                      <h5 class="card-title m-0">La estrella súper gigante</h5>
+                      <h2 class="card-title font-weight-bold m-0 h-titulo-novedades text-primary">BETELGEUSE</h2>
+                      <p class="m-0"> también llamada α Orionis o HIP 27989 se encuentra a</p>
+                      <h2 class="h-novedades m-0 text-danger">642.5</h2>
+                      <p class="m-0">años luz de la tierra</p>
+                      <div class="text-center mt-3"><button class="btn btn-primary"><span class="font-weight-bold">VER MÁS</span></button></div>
+                    </div>
+                  </div>
                 </div>
-                <img class="card-img-right flex-auto d-none d-md-block" src="img/hubble-photo-of-the-tarantula-nebula-wallpaper.jpg" width="250" height="200" alt="Card image cap">
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                <div class="card-body d-flex flex-column align-items-start">
-                  <strong class="d-inline-block mb-2 text-success">Design</strong>
-                  <h3 class="mb-0">
-                    <a class="text-dark" href="#">Post title</a>
-                  </h3>
-                  <div class="mb-1 text-muted">Nov 11</div>
-                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#">Continue reading</a>
+            
+            <!--card 2-->
+            <div class="col-lg-6">
+              <div class="card mb-3 p-4">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <img src="img/trappist-1.png" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-6 ">
+                    <div class="card-body py-md-0">
+                      <h5 class="card-title m-0">El sistema</h5>
+                      <h2 class="card-title font-weight-bold m-0 h-titulo-novedades text-primary">TRAPPIST-1</h2>
+                      <p class="m-0">es una estrella enana ultra-fría de tipo espectral M8 V localizada a</p>
+                      <h2 class="h-novedades m-0 text-danger">39.46</h2>
+                      <p class="m-0">años luz de la tierra</p>
+                      <div class="text-center mt-3"><button class="btn btn-primary text-center"><span class="font-weight-bold">VER MÁS</span></button></div>
+                    </div>
+                  </div>
                 </div>
-                <img class="card-img-right flex-auto d-none d-md-block" src="img/hubble-photo-of-the-tarantula-nebula-wallpaper.jpg" width="250" height="200" alt="Card image cap">
               </div>
             </div>
           </div>
       </div>
 
 
-      <div class="container p-4">
-        <div class="text-center my-3"><h2>OUR ADVANTAGES</h2></div>
-        
 
+      <div class="container p-4 mx-0 px-5">
+        <div class="text-center my-3"><h2>OUR ADVANTAGES</h2></div>
         
         <div class="row">
           <div class="col-lg-3 text-center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
-            <h2>Heading</h2>
+            <img class="rounded-circle" src="img/newton.jpg" alt="Generic placeholder image" width="150" height="150">
+            <h2>Newton</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-3 text-center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
-            <h2>Heading</h2>
+            <img class="rounded-circle" src="img/kepler.png" alt="Generic placeholder image" width="150" height="150">
+            <h2>Kepler</h2>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-3 text-center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="150" height="150">
             <h2>Heading</h2>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-3 text-center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="150" height="150">
             <h2>Heading</h2>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
@@ -227,7 +253,7 @@
       </div>
 
 
-      <div class="container">
+      <div class="container bg-dark py-4 mx-0 px-5">
         <div class="text-center my-3"><h2>OUR ADVANTAGES</h2></div>
         <div class="card-group">
             <div class="card" style="width: 18rem;">
@@ -258,7 +284,7 @@
       </div>
 
 
-      <div class="container">
+      <div class="container mx-0 px-5">
           <div class="row">
             <div class="col-12 col-md-4 text-center">
                 <img src="img/hubble-photo-of-the-tarantula-nebula-wallpaper.jpg" alt="..." class="img-thumbnail">
@@ -272,8 +298,78 @@
           </div>
       </div>
 
+      <!--PEOPLE ABOUT US-->
+      <div class="container py-4 px-5 bg-gray mx-0">
 
-      <footer class="container py-5">
+        <div class="text-center my-3">
+          <h2>OUR ADVANTAGES</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, incidunt.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+
+        <div class="row px-3">
+
+          <div class="col-12 col-md-6 text-center border-bottom border-right">
+            <div class="row">
+              <div class="col-3 py-3">
+                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+
+              </div>
+              <div class="col-9 py-4 text-left">
+                <h4>Nombre Numero 1</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odio cum incidunt nobis quaerat fugiat!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 text-center border-bottom border-left">
+            <div class="row">
+              <div class="col-3 py-3">
+                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+
+              </div>
+              <div class="col-9 py-4 text-left">
+                <h4>Nombre Numero 2</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odio cum incidunt nobis quaerat fugiat!</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row px-3">
+
+          <div class="col-12 col-md-6 text-center border-top border-right">
+            <div class="row">
+              <div class="col-3 py-3">
+                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+
+              </div>
+              <div class="col-9 py-4 text-left">
+                <h4>Nombre Numero 3</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odio cum incidunt nobis quaerat fugiat!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 text-center border-top border-left">
+            <div class="row">
+              <div class="col-3 py-3">
+                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
+
+              </div>
+              <div class="col-9 py-4 text-left">
+                <h4>Nombre Numero 4</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odio cum incidunt nobis quaerat fugiat!</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    
+
+
+      <footer class="container py-5 mx-0 bg-primary">
         <div class="row">
           <div class="col-12 col-md">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
@@ -319,6 +415,9 @@
           </div>
         </div>
       </footer>
+
+
+    </div>
       
 
     <script src="js/jquery-3.4.1.min.js"></script>

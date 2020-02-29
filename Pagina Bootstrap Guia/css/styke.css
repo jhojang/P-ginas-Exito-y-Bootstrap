@@ -11,6 +11,19 @@ body {
   color: #696969; }
 
 /*2. ESTILOS GENERALES DE BOTONES*/
+.btn {
+  padding: 0.6rem 3rem !important;
+  border-radius: 3px;
+  border-bottom: 2px solid; }
+
+.btn-primary {
+  color: #212529;
+  background-color: #ffc107;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: #e47b35; }
+
 /*3. ESTILOS COLOR PRINCIPAL*/
 .bg-primary {
   background-color: #01258a !important; }
@@ -108,6 +121,18 @@ body {
   background-color: #01258a;
   color: white !important; }
 
+/*ON NOVEDADES*/
+.h-novedades {
+  font-weight: bold;
+  font-size: 4rem !important; }
+
+.bg-espacio {
+  background: url("../img/fondo-espacio.jpg") !important; }
+
+/*PEOPLE ABOUT US*/
+.bg-gray {
+  background-color: #f1f1f1; }
+
 /* MEDIAQUERIES*/
 @media (min-width: 768px) {
   .nav-link:after {
@@ -121,6 +146,13 @@ body {
   .nav-item a:hover {
     color: #696969 !important;
     background-color: transparent;
-    border-radius: 0px; } }
+    border-radius: 0px; }
+
+  .h-titulo-novedades {
+    font-size: 2.3rem !important;
+    margin: 5px 0 !important; }
+
+  .h-novedades {
+    font-size: 4rem !important; } }
 
 /*# sourceMappingURL=styke.css.map */
