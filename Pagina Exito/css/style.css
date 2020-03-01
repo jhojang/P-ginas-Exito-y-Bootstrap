@@ -205,6 +205,32 @@ p {
     font-size: 8px;
 }
 
+.anuncio .desc-bottom,
+.anuncio .desc-bottom2,
+.anuncio .desc-bottom3
+ {
+    font-size: 7px;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+}
+
+.anuncio .desc-bottom {
+    top: 57px;
+    left: 31px;
+}
+
+.anuncio .desc-bottom2 {
+    top: 63px;
+    left: 10px;
+}
+
+.anuncio .desc-bottom3 {
+    font-size: 9px;
+    top: 61px;
+    left: 26px;
+}
+
 .anuncio .derecha-num {
     left: 0.4px;
     font-size: 20px;
@@ -712,7 +738,7 @@ p {
 
 .caraB{
     position: absolute;
-    background: rgb(255, 80, 27);
+    background: rgb(255, 204, 188);
     transform: translateZ(-35px);
 }
 
@@ -721,7 +747,7 @@ p {
     left: 50px;
     background: linear-gradient(123deg, rgb(199, 31, 1) 22%, rgb(237, 76, 58) 69%);
     height: 31.5%;
-    transform: translateZ(-17.5px) translateX(94px) rotateY(90deg) rotateX(-43.9deg);
+    transform: translateZ(-17.5px) translateX(94.2px) rotateY(90deg) rotateX(-43.9deg);
 
 }
 
@@ -737,9 +763,9 @@ p {
 .lado3{
     top: 30.5%;
     left: 17.8%;
-    background: rgb(173, 27, 1);
+    background: linear-gradient(-90deg, rgb(173, 27, 1) 53%, rgb(237, 76, 58) 174%);
     height: 41.3%;
-    transform: translateZ(-17.5px) translateX(163.8px) rotateY(90deg) rotateX(-127.2deg);
+    transform: translateZ(-17.5px) translateX(164px) rotateY(90deg) rotateX(-127.2deg);
 
 }
 
@@ -747,7 +773,7 @@ p {
     top: 14%;
     left: 17.8%;
     background: rgb(133, 20, 1);
-    height: 41.3%;
+    height: 28.3%;
     transform: translateZ(-17.5px) translateX(145px) rotateY(90deg) rotateX(-8deg);
 }
 
@@ -757,6 +783,16 @@ p {
     background: rgb(165, 26, 1);
     height: 41.3%;
     transform: translateZ(-17.5px) translateX(36.3px) rotateY(90deg) rotateX(-106.2deg);
+}
+
+.sombra-estrella{
+    top: -0.75%;
+    left: 17.8%;
+    background: linear-gradient(90deg, rgb(165, 26, 1) 10%, rgba(165, 26, 1, 0.4) 38%, rgba(165, 26, 25, 0.2) 58%, rgba(165, 26, 25, 0.4) 77%, rgb(165, 26, 1) 104%);
+    height: 13.3%;
+    width: 56.3%;
+    opacity: 0.7;
+    transform: translateZ(-16.5px) translateY(14.5px) translateX(58.3px) rotateY(179deg) rotateX(-91.2deg);
 }
 
 
@@ -942,6 +978,12 @@ p {
     left: 0.6px;
     font-size: 6px;
     margin: 20px 0;
+}
+
+.anuncioP .dos-tres {
+    font-size: 15px;
+    top: -1px;
+    left: 0px;
 }
 
 .descuent {
